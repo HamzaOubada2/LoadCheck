@@ -1,0 +1,55 @@
+{
+  "name": "loadcheck",
+  "version": "0.0.1",
+  "description": "Lightweight, safe-by-design load testing for Node.js applications",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loadcheck/loadcheck"
+  },
+  "keywords": [
+    "load-testing",
+    "loadcheck",
+    "performance",
+    "benchmarking",
+    "latency",
+    "hdr-histogram",
+    "worker-threads",
+    "cli",
+    "nodejs",
+    "typescript"
+  ],
+  "bin": {
+    "loadcheck": "dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/ tests/ --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "commander": "^15.0.0",
+    "hdr-histogram-js": "^3.0.1",
+    "undici": "^8.12.2",
+    "zod": "^4.6.7"
+  }
+}
