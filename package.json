@@ -1,12 +1,13 @@
 {
   "name": "loadcheck",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lightweight, safe-by-design load testing for Node.js applications",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/loadcheck/loadcheck"
+    "url": "https://github.com/HamzaOubada2/LoadCheck.git"
   },
+  "homepage": "https://github.com/HamzaOubada2/LoadCheck#readme",
   "keywords": [
     "load-testing",
     "loadcheck",
