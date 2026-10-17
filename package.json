@@ -1,6 +1,6 @@
 {
   "name": "loadcheck",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lightweight, safe-by-design load testing for Node.js applications",
   "license": "MIT",
   "repository": {
